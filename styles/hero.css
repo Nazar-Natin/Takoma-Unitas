@@ -1,0 +1,85 @@
+.hero {
+  padding: 39px 124px;
+
+  position: relative;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin-bottom: 50px;
+
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-image: url("../images/header-bg.jpg");
+}
+
+.logo-img {
+  display: block;
+  z-index: 1;
+  width: 180px;
+  height: 100px;
+}
+
+.hero-overflow {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  background: rgba(255, 255, 255, 0.5);
+}
+
+@media screen and (min-width: 360px) {
+  .hero {
+    padding: 54px 124px;
+  }
+}
+
+@media screen and (min-width: 480px) and (max-width: 719px) {
+  .hero {
+    background-size: contain;
+    padding: 80px 124px;
+  }
+}
+
+@media screen and (min-width: 720px) {
+  .logo-img {
+    width: 400px;
+    height: 225px;
+  }
+
+  .hero {
+    padding: 100px 220px;
+    margin-bottom: 100px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .hero {
+    padding: 100px 300px;
+    background-size: cover;
+    background-position: bottom;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .hero {
+    padding: 100px 300px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .logo-img {
+    width: 700px;
+    height: 400px;
+  }
+
+  .hero {
+    padding: 115px 400px;
+    margin-bottom: 150px;
+    background-position: bottom;
+  }
+}

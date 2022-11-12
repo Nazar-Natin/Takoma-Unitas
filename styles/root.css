@@ -1,0 +1,55 @@
+:root {
+  --accent-color: #446c94;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+ul > li {
+  list-style-type: none;
+}
+
+h2,
+p {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #000a1b;
+}
+
+body {
+  color: #000a1b;
+  font-family: "Rubik";
+}
+
+button {
+  border: none;
+  background-color: transparent;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f2f2f0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+img {
+  display: block;
+}
+
+.bold {
+  font-weight: 500;
+}
+h4 {
+  margin-top: 0;
+  margin-bottom: 10px;
+}

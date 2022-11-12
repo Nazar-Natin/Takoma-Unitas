@@ -1,0 +1,94 @@
+@keyframes move-1 {
+  0% {
+    transform: translateX(20px);
+  }
+  100% {
+    transform: translateX(calc(100vw - 70px - 20px));
+  }
+}
+
+@media screen and (min-width: 720px) {
+  @keyframes move-1 {
+    0% {
+      transform: translateX(20px);
+    }
+    100% {
+      transform: translateX(calc(100vw - 70px - 20px));
+    }
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  @keyframes move-1 {
+    0% {
+      transform: translateX(20px);
+    }
+    100% {
+      transform: translateX(calc(100vw - 100px - 20px));
+    }
+  }
+}
+
+.animation-wrapper {
+  position: relative;
+  height: 60px;
+  border-bottom: 3px solid #000;
+  margin-bottom: 50px;
+}
+
+.animation-object-truck {
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+  top: 6px;
+
+  width: 70px;
+  animation-name: move-1;
+  animation-duration: 15s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+.animation-object-ship {
+  position: absolute;
+  display: block;
+  top: 1px;
+  left: 0;
+  width: 70px;
+  animation-name: move-1;
+  animation-duration: 15s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@media screen and (min-width: 720px) {
+  .animation-wrapper {
+    height: 70px;
+  }
+  .animation-object-truck {
+    width: 80px;
+    top: 8px;
+  }
+  .animation-object-ship {
+    width: 80px;
+    top: 2px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .animation-wrapper {
+    height: 84px;
+    margin-bottom: 100px;
+  }
+
+  .animation-object-truck {
+    width: 100px;
+    animation-duration: 20s;
+  }
+
+  .animation-object-ship {
+    width: 100px;
+    top: 1px;
+    animation-duration: 20s;
+  }
+}
