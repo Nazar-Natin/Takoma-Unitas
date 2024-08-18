@@ -1,0 +1,116 @@
+.about {
+  padding: 112px 0;
+}
+
+.aboutContainer {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 64px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.aboutText {
+  max-width: 768px;
+  text-align: center;
+}
+
+.aboutTitle {
+  font-size: 2.5rem;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 24px;
+  color: var(--primary-color);
+}
+
+.aboutDescription {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  margin-bottom: 16px;
+  color: #555;
+}
+
+.aboutCards {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  margin-bottom: 64px;
+}
+
+.aboutCard {
+  min-width: calc(100% / 3);
+  padding: 16px 24px;
+  text-align: center;
+  position: relative;
+}
+
+.aboutCard:nth-child(1)::after {
+  content: " ";
+  width: 100%;
+  height: 2px;
+  background: #000;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.aboutCard h6 {
+  font-size: 1.5rem;
+}
+
+.aboutUsImage {
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .aboutContainer {
+    flex-direction: column;
+    padding: 0 32px;
+  }
+
+  .aboutTitle {
+    font-size: 2rem;
+  }
+
+  .aboutDescription {
+    font-size: 0.9rem;
+  }
+
+  .aboutCards {
+    flex-direction: column;
+    gap: 32px;
+  }
+
+  .aboutCard {
+    min-width: 100%;
+    padding: 16px 0;
+  }
+
+  .aboutCard:nth-child(1)::after {
+    display: none;
+  }
+}
+
+@media (max-width: 480px) {
+  .aboutContainer {
+    padding: 0 16px;
+  }
+
+  .aboutTitle {
+    font-size: 1.75rem;
+  }
+
+  .aboutDescription {
+    font-size: 0.875rem;
+  }
+
+  .aboutCard h6 {
+    font-size: 1.25rem;
+  }
+
+  .aboutCards {
+    gap: 24px;
+  }
+}

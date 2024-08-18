@@ -1,0 +1,78 @@
+{
+  "hero": {
+    "title": "Reliable Transportation Services for Businesses and Individuals",
+    "text": "Experience timely and safe deliveries with our top-notch transportation services.",
+    "button": "Get Started"
+  },
+  "services": {
+    "subtitle": "Reliable",
+    "title": "Efficient Transportation Services for Businesses and Individuals",
+    "text": "Our transportation services provide timely and safe deliveries across the region. With a focus on reliability and efficiency, we ensure that your goods reach their destination on time and in perfect condition.",
+    "card1": {
+      "title": "Wide Range of Transportation Services",
+      "text": "We offer a comprehensive range of transportation services to meet your specific needs. From local deliveries to long-haul shipments, we have you covered."
+    },
+    "card2": {
+      "title": "Safe and Secure Deliveries",
+      "text": "Our top priority is the safety and security of your goods. We have strict protocols in place to ensure that your shipments are protected throughout the transportation process."
+    },
+    "card3": {
+      "title": "Experienced and Professional Team",
+      "text": "Our team of experienced professionals is dedicated to providing exceptional transportation services. With their expertise, you can trust that your goods are in good hands."
+    },
+    "learn_more": "Learn More",
+    "contact_us": "Contact Us"
+  },
+  "about_us": {
+    "subtitle": "Efficient",
+    "title": "Reliable Transportation Services for Businesses and Individuals",
+    "text": "Our transportation services offer three key benefits: timely deliveries, safe transportation, and top-notch service.",
+    "card1": {
+      "title": "Timely",
+      "text": "On-time deliveries to meet your business and personal transportation needs."
+    },
+    "card2": {
+      "title": "Safe",
+      "text": "Ensuring the safety of your goods and providing peace of mind."
+    },
+    "card3": {
+      "title": "Reliable",
+      "text": "Count on us for dependable transportation services that you can trust."
+    },
+    "image_alt": "An image showcasing our team and services"
+  },
+  "bus_transport": {
+    "title": "Experience the Ultimate in Transportation with Our Impressive Fleet",
+    "text": "Our company strives to provide a variety of well-maintained vehicles for your transportation needs, including bus transportation and spacious vans.",
+    "list_item1": "Sleek and stylish buses for a comfortable and classy ride.",
+    "list_item2": "Spacious vans for group travel or transporting larger items.",
+    "list_item3": "Efficient and reliable trucks for heavy-duty deliveries and logistics.",
+    "image_alt": "A bus in action"
+  },
+  "contact_us": {
+    "title": "Get in touch with us",
+    "text": "Contact us today to learn more about our transportation services",
+    "button": "Contact",
+    "image_alt": "An image related to contacting us",
+    "modal_title": "Contact Us Form",
+    "modal_name": "Name:",
+    "modal_email": "Email:",
+    "modal_message": "Message:",
+    "modal_send": "Send",
+    "email": {
+      "title": "Email Us",
+      "text": "Please feel free to reach out to us with any questions or inquiries.",
+      "link": "Send Email"
+    },
+    "phone": {
+      "title": "Call Us",
+      "text": "We're here to assist you in any way we can.",
+      "link": "Call Us"
+    },
+    "address": {
+      "title": "Visit Us",
+      "text": "Contact us today for reliable transportation services.",
+      "link": "View on Map"
+    }
+  }
+}

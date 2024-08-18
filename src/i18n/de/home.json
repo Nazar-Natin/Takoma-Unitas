@@ -1,0 +1,78 @@
+{
+  "hero": {
+    "title": "Zuverlässige Transportdienstleistungen für Unternehmen und Privatpersonen",
+    "text": "Erleben Sie pünktliche und sichere Lieferungen mit unseren erstklassigen Transportdienstleistungen.",
+    "button": "Loslegen"
+  },
+  "services": {
+    "subtitle": "Zuverlässig",
+    "title": "Effiziente Transportdienstleistungen für Unternehmen und Privatpersonen",
+    "text": "Unsere Transportdienstleistungen bieten pünktliche und sichere Lieferungen in der ganzen Region. Mit einem Fokus auf Zuverlässigkeit und Effizienz sorgen wir dafür, dass Ihre Waren pünktlich und in einwandfreiem Zustand ihr Ziel erreichen.",
+    "card1": {
+      "title": "Breites Spektrum an Transportdienstleistungen",
+      "text": "Wir bieten eine umfassende Palette an Transportdienstleistungen, die auf Ihre spezifischen Bedürfnisse zugeschnitten sind. Von lokalen Lieferungen bis hin zu Ferntransporten – wir haben alles im Griff."
+    },
+    "card2": {
+      "title": "Sichere und geschützte Lieferungen",
+      "text": "Unsere oberste Priorität ist die Sicherheit Ihrer Waren. Wir haben strenge Protokolle, um sicherzustellen, dass Ihre Sendungen während des gesamten Transportprozesses geschützt sind."
+    },
+    "card3": {
+      "title": "Erfahrenes und professionelles Team",
+      "text": "Unser Team aus erfahrenen Fachleuten ist bestrebt, außergewöhnliche Transportdienstleistungen zu erbringen. Mit ihrem Fachwissen können Sie sicher sein, dass Ihre Waren in guten Händen sind."
+    },
+    "learn_more": "Mehr erfahren",
+    "contact_us": "Kontaktieren Sie uns"
+  },
+  "about_us": {
+    "subtitle": "Effizient",
+    "title": "Zuverlässige Transportdienstleistungen für Unternehmen und Privatpersonen",
+    "text": "Unsere Transportdienstleistungen bieten drei wesentliche Vorteile: pünktliche Lieferungen, sichere Transporte und erstklassigen Service.",
+    "card1": {
+      "title": "Pünktlich",
+      "text": "Pünktliche Lieferungen, um Ihre geschäftlichen und persönlichen Transportbedürfnisse zu erfüllen."
+    },
+    "card2": {
+      "title": "Sicher",
+      "text": "Gewährleistung der Sicherheit Ihrer Waren und Sorgenfreiheit."
+    },
+    "card3": {
+      "title": "Zuverlässig",
+      "text": "Verlassen Sie sich auf uns für zuverlässige Transportdienstleistungen, denen Sie vertrauen können."
+    },
+    "image_alt": "Ein Bild, das unser Team und unsere Dienstleistungen zeigt"
+  },
+  "bus_transport": {
+    "title": "Erleben Sie das Beste im Transport mit unserer beeindruckenden Flotte",
+    "text": "Unser Unternehmen bietet eine Vielzahl gut gepflegter Fahrzeuge für Ihre Transportbedürfnisse, darunter Busse und geräumige Transporter.",
+    "list_item1": "Schlanke und stilvolle Busse für eine komfortable und stilvolle Fahrt.",
+    "list_item2": "Geräumige Transporter für Gruppenreisen oder den Transport größerer Gegenstände.",
+    "list_item3": "Effiziente und zuverlässige Lkw für Schwerlastlieferungen und Logistik.",
+    "image_alt": "Ein Bus in Aktion"
+  },
+  "contact_us": {
+    "title": "Kontaktieren Sie uns",
+    "text": "Kontaktieren Sie uns noch heute, um mehr über unsere Transportdienstleistungen zu erfahren",
+    "button": "Kontakt",
+    "image_alt": "Ein Bild im Zusammenhang mit der Kontaktaufnahme",
+    "modal_title": "Kontaktformular",
+    "modal_name": "Name:",
+    "modal_email": "E-Mail:",
+    "modal_message": "Nachricht:",
+    "modal_send": "Senden",
+    "email": {
+      "title": "Schreiben Sie uns eine E-Mail",
+      "text": "Bitte zögern Sie nicht, uns bei Fragen oder Anfragen zu kontaktieren.",
+      "link": "E-Mail senden"
+    },
+    "phone": {
+      "title": "Rufen Sie uns an",
+      "text": "Wir stehen Ihnen jederzeit zur Verfügung.",
+      "link": "Anrufen"
+    },
+    "address": {
+      "title": "Besuchen Sie uns",
+      "text": "Kontaktieren Sie uns noch heute für zuverlässige Transportdienstleistungen.",
+      "link": "Auf Karte ansehen"
+    }
+  }
+}

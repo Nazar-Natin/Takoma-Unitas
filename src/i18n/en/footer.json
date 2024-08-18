@@ -1,0 +1,10 @@
+{
+  "home": "Home",
+  "about": "About",
+  "services": "Services",
+  "contact_us": "Contact Us",
+  "facebook": "Facebook",
+  "twitter": "Twitter",
+  "linkedin": "LinkedIn",
+  "copyright": "© {{year}} Your Company. All rights reserved."
+}

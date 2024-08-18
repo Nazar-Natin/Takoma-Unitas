@@ -1,0 +1,78 @@
+{
+  "hero": {
+    "title": "Services de transport fiables pour entreprises et particuliers",
+    "text": "Profitez de livraisons ponctuelles et sécurisées avec nos services de transport de qualité.",
+    "button": "Commencer"
+  },
+  "services": {
+    "subtitle": "Fiable",
+    "title": "Services de transport efficaces pour entreprises et particuliers",
+    "text": "Nos services de transport offrent des livraisons ponctuelles et sécurisées dans toute la région. Avec un accent sur la fiabilité et l'efficacité, nous nous assurons que vos marchandises arrivent à destination à temps et en parfait état.",
+    "card1": {
+      "title": "Large gamme de services de transport",
+      "text": "Nous proposons une gamme complète de services de transport pour répondre à vos besoins spécifiques. Des livraisons locales aux expéditions longues distances, nous sommes à votre service."
+    },
+    "card2": {
+      "title": "Livraisons sûres et sécurisées",
+      "text": "Notre priorité absolue est la sécurité de vos marchandises. Nous avons mis en place des protocoles stricts pour garantir que vos expéditions soient protégées tout au long du processus de transport."
+    },
+    "card3": {
+      "title": "Équipe expérimentée et professionnelle",
+      "text": "Notre équipe de professionnels expérimentés est dédiée à fournir des services de transport exceptionnels. Grâce à leur expertise, vous pouvez avoir confiance que vos marchandises sont entre de bonnes mains."
+    },
+    "learn_more": "En savoir plus",
+    "contact_us": "Contactez-nous"
+  },
+  "about_us": {
+    "subtitle": "Efficace",
+    "title": "Services de transport fiables pour entreprises et particuliers",
+    "text": "Nos services de transport offrent trois avantages clés : des livraisons ponctuelles, un transport sécurisé et un service de qualité.",
+    "card1": {
+      "title": "Ponctuel",
+      "text": "Livraisons à temps pour répondre à vos besoins de transport professionnels et personnels."
+    },
+    "card2": {
+      "title": "Sûr",
+      "text": "Assurer la sécurité de vos marchandises et vous offrir la tranquillité d'esprit."
+    },
+    "card3": {
+      "title": "Fiable",
+      "text": "Comptez sur nous pour des services de transport fiables en qui vous pouvez avoir confiance."
+    },
+    "image_alt": "Une image montrant notre équipe et nos services"
+  },
+  "bus_transport": {
+    "title": "Découvrez l'ultime expérience de transport avec notre flotte impressionnante",
+    "text": "Notre entreprise s'efforce de fournir une variété de véhicules bien entretenus pour vos besoins de transport, y compris des bus et des vans spacieux.",
+    "list_item1": "Des bus élégants et stylés pour un trajet confortable et raffiné.",
+    "list_item2": "Des vans spacieux pour les voyages en groupe ou le transport d'articles volumineux.",
+    "list_item3": "Des camions efficaces et fiables pour les livraisons lourdes et la logistique.",
+    "image_alt": "Un bus en action"
+  },
+  "contact_us": {
+    "title": "Contactez-nous",
+    "text": "Contactez-nous dès aujourd'hui pour en savoir plus sur nos services de transport",
+    "button": "Contact",
+    "image_alt": "Une image liée à nous contacter",
+    "modal_title": "Formulaire de contact",
+    "modal_name": "Nom:",
+    "modal_email": "E-mail:",
+    "modal_message": "Message:",
+    "modal_send": "Envoyer",
+    "email": {
+      "title": "Envoyez-nous un e-mail",
+      "text": "N'hésitez pas à nous contacter pour toute question ou demande.",
+      "link": "Envoyer un e-mail"
+    },
+    "phone": {
+      "title": "Appelez-nous",
+      "text": "Nous sommes là pour vous aider.",
+      "link": "Appeler"
+    },
+    "address": {
+      "title": "Visitez-nous",
+      "text": "Contactez-nous dès aujourd'hui pour des services de transport fiables.",
+      "link": "Voir sur la carte"
+    }
+  }
+}

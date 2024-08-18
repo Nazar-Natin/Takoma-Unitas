@@ -1,0 +1,9 @@
+.partners-carousel {
+  padding: 2rem;
+}
+
+.carousel-item img {
+  width: 150px;
+  height: auto;
+  margin: auto;
+}
