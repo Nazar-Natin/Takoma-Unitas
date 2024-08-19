@@ -10,7 +10,7 @@ export default function BusTransportSection() {
       <div className={styles.transportContainer}>
         <div>
           <img
-            src="src/assets/images/transport-image.jpg"
+            src="/images/transport-image.jpg"
             alt={t("bus_transport.image_alt")}
             className={styles.transportImg}
           />

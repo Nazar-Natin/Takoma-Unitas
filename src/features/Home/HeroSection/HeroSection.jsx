@@ -15,7 +15,7 @@ const Hero = () => {
         </div>
         <div className={styles.heroImageWrapper}>
           <img
-            src="./assets/images/hero-image.jpg"
+            src="/images/hero-image.jpg"
             className={styles.heroImage}
           />
         </div>

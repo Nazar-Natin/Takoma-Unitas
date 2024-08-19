@@ -21,7 +21,7 @@ const ContactUsSection = () => {
         </div>
         <div className={styles.contactUsImage}>
           <img
-            src="src/assets/images/contact-image.jpg"
+            src="/images/contact-image.jpg"
             alt={t("contact_us.image_alt")}
           />
         </div>
@@ -30,7 +30,7 @@ const ContactUsSection = () => {
       <div className={styles.contactUsCards}>
         <div className={styles.contactCard}>
           <img
-            src="src/assets/icons/Email.svg"
+            src="/icons/Email.svg"
             alt={t("contact_us.email.title")}
           />
           <h3>{t("contact_us.email.title")}</h3>
@@ -43,7 +43,7 @@ const ContactUsSection = () => {
 
         <div className={styles.contactCard}>
           <img
-            src="src/assets/icons/Phone.svg"
+            src="/icons/Phone.svg"
             alt={t("contact_us.phone.title")}
           />
           <h3>{t("contact_us.phone.title")}</h3>
@@ -54,7 +54,7 @@ const ContactUsSection = () => {
 
         <div className={styles.contactCard}>
           <img
-            src="src/assets/icons/Location.svg"
+            src="/icons/Location.svg"
             alt={t("contact_us.address.title")}
           />
           <h3>{t("contact_us.address.title")}</h3>
