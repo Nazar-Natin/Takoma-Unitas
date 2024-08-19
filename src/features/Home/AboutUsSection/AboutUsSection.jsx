@@ -33,7 +33,7 @@ const AboutUsSection = () => {
         </div>
         <div>
           <img
-            src="/images/about-image.jpg"
+            src="./assets/images/about-image.jpg"
             alt={t("about_us.image_alt")}
             className={styles.aboutUsImage}
           />

@@ -38,17 +38,17 @@ const Footer = () => {
               aria-label="Facebook"
               className={styles.socialLink}
             >
-              <img src="/icons/Facebook.svg" alt="" />
+              <img src="./assets/icons/Facebook.svg" alt="" />
             </a>
           </li>
           <li className={styles.socialMediaItem}>
             <a href="#" aria-label="Twitter" className={styles.socialLink}>
-              <img src="/icons/Instagram.svg" alt="" />
+              <img src="./assets/icons/Instagram.svg" alt="" />
             </a>
           </li>
           <li className={styles.socialMediaItem}>
             <a href="#" aria-label="Instagram" className={styles.socialLink}>
-              <img src="/icons/Linkedin.svg" alt="" />
+              <img src="./assets/icons/Linkedin.svg" alt="" />
             </a>
           </li>
         </ul>
