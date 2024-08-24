@@ -1,5 +1,6 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
+import heroImage from '../../../assets/images/hero-image.jpg'
 import styles from "./Hero.module.css";
 
 const Hero = () => {
@@ -15,7 +16,7 @@ const Hero = () => {
         </div>
         <div className={styles.heroImageWrapper}>
           <img
-            src="./src/images/hero-image.jpg"
+            src={heroImage}
             className={styles.heroImage}
           />
         </div>
