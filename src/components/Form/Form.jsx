@@ -1,5 +1,5 @@
 import React from "react";
-import "./Form.css";
+import "./form.css";
 
 const Form = () => {
   const handleSubmit = (event) => {
