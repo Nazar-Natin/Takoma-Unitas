@@ -29,3 +29,4 @@ jobs:
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         publish_dir: ./dist
+        cname: https://github.com/Nazar-Natin/Takoma-Unitas.git/  # Optional: Remove this line if you are not using a custom domain
