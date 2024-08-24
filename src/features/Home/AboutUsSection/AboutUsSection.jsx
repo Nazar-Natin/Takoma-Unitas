@@ -1,6 +1,7 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
 import styles from "./AboutUsSection.module.css";
+import aboutImage from '../../../assets/images/about-image.jpg'
 
 const AboutUsSection = () => {
   const { t } = useTranslation("home");
@@ -33,7 +34,7 @@ const AboutUsSection = () => {
         </div>
         <div>
           <img
-            src="./assets/images/about-image.jpg"
+            src={aboutImage}
             alt={t("about_us.image_alt")}
             className={styles.aboutUsImage}
           />

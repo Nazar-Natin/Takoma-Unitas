@@ -2,6 +2,9 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import styles from "./Footer.module.css";
+import Facebook from '../../assets/icons/Facebook.svg'
+import Instagram from '../../assets/icons/Instagram.svg'
+import Linkedin from '../../assets/icons/Linkedin.svg'
 
 const Footer = () => {
   const { t } = useTranslation("footer");
@@ -38,17 +41,17 @@ const Footer = () => {
               aria-label="Facebook"
               className={styles.socialLink}
             >
-              <img src="./assets/icons/Facebook.svg" alt="" />
+              <img src={Facebook} alt="" />
             </a>
           </li>
           <li className={styles.socialMediaItem}>
             <a href="#" aria-label="Twitter" className={styles.socialLink}>
-              <img src="./assets/icons/Instagram.svg" alt="" />
+              <img src={Instagram} alt="" />
             </a>
           </li>
           <li className={styles.socialMediaItem}>
             <a href="#" aria-label="Instagram" className={styles.socialLink}>
-              <img src="./assets/icons/Linkedin.svg" alt="" />
+              <img src={Linkedin} alt="" />
             </a>
           </li>
         </ul>

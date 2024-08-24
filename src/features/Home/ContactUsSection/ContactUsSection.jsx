@@ -3,6 +3,10 @@ import { useTranslation } from "react-i18next";
 import Modal from "../../../components/Modal/Modal";
 import Form from "../../../components/Form/Form";
 import styles from "./contactUsSection.module.css";
+import contactImage from '../../../assets/images/contact-image.jpg'
+import Email from '../../../assets/icons/Email.svg'
+import Phone from '../../../assets/icons/Phone.svg'
+import Location from '../../../assets/icons/Location.svg'
 
 const ContactUsSection = () => {
   const { t } = useTranslation("home");
@@ -21,7 +25,7 @@ const ContactUsSection = () => {
         </div>
         <div className={styles.contactUsImage}>
           <img
-            src="./assets/images/contact-image.jpg"
+            src={contactImage}
             alt={t("contact_us.image_alt")}
           />
         </div>
@@ -30,7 +34,7 @@ const ContactUsSection = () => {
       <div className={styles.contactUsCards}>
         <div className={styles.contactCard}>
           <img
-            src="./assets/icons/Email.svg"
+            src={Email}
             alt={t("contact_us.email.title")}
           />
           <h3>{t("contact_us.email.title")}</h3>
@@ -43,7 +47,7 @@ const ContactUsSection = () => {
 
         <div className={styles.contactCard}>
           <img
-            src="./assets/icons/Phone.svg"
+            src={Phone}
             alt={t("contact_us.phone.title")}
           />
           <h3>{t("contact_us.phone.title")}</h3>
@@ -54,7 +58,7 @@ const ContactUsSection = () => {
 
         <div className={styles.contactCard}>
           <img
-            src="./assets/icons/Location.svg"
+            src={Location}
             alt={t("contact_us.address.title")}
           />
           <h3>{t("contact_us.address.title")}</h3>

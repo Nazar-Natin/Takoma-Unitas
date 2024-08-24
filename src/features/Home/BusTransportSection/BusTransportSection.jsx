@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "./busTransportSection.module.css";
 import { useTranslation } from "react-i18next";
+import transportImage from '../../../assets/images/transport-image.jpg'
 
 export default function BusTransportSection() {
   const { t } = useTranslation("home");
@@ -10,7 +11,7 @@ export default function BusTransportSection() {
       <div className={styles.transportContainer}>
         <div>
           <img
-            src="./assets/images/transport-image.jpg"
+            src={transportImage}
             alt={t("bus_transport.image_alt")}
             className={styles.transportImg}
           />
