@@ -63,6 +63,7 @@ const ContactUsSection = () => {
           />
           <h3>{t("contact_us.address.title")}</h3>
           <p>Strada Moților 7 Timișoara, Romania</p>
+          <p>Paulya Tselana St, 15, Chernivtsi, Ukraine</p>
           <a
             href="https://g.co/kgs/MBGq4DW"
             target="_blank"

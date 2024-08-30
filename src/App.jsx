@@ -18,7 +18,7 @@ const App = () => {
   const closeModal = () => setIsModalOpen(false);
 
   return (
-    <Router basename='/Takoma-Unitas/' >
+    <Router basename='/Takoma-Unitas/'>
       <Header openModal={openModal} />
       <main>
         <Routes>
