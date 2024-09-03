@@ -23,6 +23,12 @@
     "learn_more": "En savoir plus",
     "contact_us": "Contactez-nous"
   },
+  "legalServices": {
+    "subtitle": "Conseil d'expert",
+    "title": "Services juridiques professionnels",
+    "text": "Notre équipe juridique est là pour soutenir vos besoins juridiques professionnels et personnels avec des services fiables et efficaces.",
+    "image_alt": "Image des services juridiques"
+  },
   "about_us": {
     "subtitle": "Efficace",
     "title": "Services de transport fiables pour entreprises et particuliers",

@@ -23,6 +23,12 @@
     "learn_more": "Mehr erfahren",
     "contact_us": "Kontaktieren Sie uns"
   },
+  "legalServices": {
+    "subtitle": "Fachkundige Beratung",
+    "title": "Professionelle Rechtsdienstleistungen",
+    "text": "Unser Rechtsteam unterstützt Ihre geschäftlichen und persönlichen rechtlichen Bedürfnisse mit zuverlässigen und effizienten Dienstleistungen.",
+    "image_alt": "Bild von Rechtsdienstleistungen"
+  },
   "about_us": {
     "subtitle": "Effizient",
     "title": "Zuverlässige Transportdienstleistungen für Unternehmen und Privatpersonen",

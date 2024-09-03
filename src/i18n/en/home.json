@@ -23,6 +23,12 @@
     "learn_more": "Learn More",
     "contact_us": "Contact Us"
   },
+  "legalServices": {
+    "subtitle": "Expert Guidance",
+    "title": "Professional Legal Services",
+    "text": "Our legal team is here to support your business and personal legal needs with reliable and efficient services.",
+    "image_alt": "Legal services image"
+  },
   "about_us": {
     "subtitle": "Efficient",
     "title": "Reliable Transportation Services for Businesses and Individuals",
