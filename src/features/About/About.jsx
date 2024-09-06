@@ -6,8 +6,10 @@ const About = () => {
 
   return (
     <div>
-      <h1>{t("company_history")}</h1>
-      <p>{t("mission")}</p>
+      <h1>{t('aboutPage.title')}</h1>
+      <section>
+        <p>{t('aboutPage.description')}</p>
+      </section>
     </div>
   );
 };

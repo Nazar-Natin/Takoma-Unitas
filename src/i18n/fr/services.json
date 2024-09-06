@@ -1,4 +1,29 @@
 {
-  "form_header": "Envoyez-nous un message",
-  "form_description": "Veuillez remplir le formulaire ci-dessous pour nous contacter."
+  "servicesPage": {
+    "title": "Nos Services",
+    "transportServices": {
+      "title": "Services de transport complets",
+      "description": "Nous offrons des services de transport ferroviaire, de transport de conteneurs, de flexitanks, de barils et de citernes. Le transport par bateau et par barge est également disponible."
+    },
+    "customsAndLogistics": {
+      "title": "Services douaniers et logistiques",
+      "description": "Nos services incluent le dédouanement, le rechargement, le transport et le support juridique."
+    },
+    "export": {
+      "title": "Services d'exportation",
+      "description": "Nous exportons des céréales, des oléagineux et des produits agricoles. Nous proposons également l'exportation de produits forestiers."
+    },
+    "import": {
+      "title": "Services d'importation",
+      "description": "Nous importons des équipements sanitaires et de réfrigération."
+    },
+    "mainRoutes": {
+      "title": "Principales routes de transport",
+      "description": "Nous opérons sur des routes en Europe, Asie, Afrique et au Moyen-Orient."
+    },
+    "busRoutes": {
+      "title": "Itinéraires en bus",
+      "description": "Les itinéraires en bus incluent Tchernivtsi - Riga, Tchernivtsi - Oslo, Tchernivtsi - Düsseldorf."
+    }
+  }
 }

@@ -1,4 +1,6 @@
 {
-  "company_history": "We have been serving our customers since 1990.",
-  "mission": "Our mission is to provide the best service."
+  "aboutPage": {
+    "title": "About Us",
+    "description": "Takoma Unitas is a logistics company specializing in global transportation services. Our offerings include container shipments, rail transport, flexitanks, barrels, and maritime logistics. We provide customs brokerage, legal support, and reloading services, with a focus on export (agricultural and wood products) and import (sanitary ware, refrigeration equipment). Our operations span Europe, Asia, Africa, and the Middle East, and our headquarters are based in Timișoara, Romania."
+  }
 }

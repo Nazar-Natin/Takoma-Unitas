@@ -1,4 +1,29 @@
 {
-  "form_header": "Senden Sie uns eine Nachricht",
-  "form_description": "Bitte füllen Sie das folgende Formular aus, um Kontakt aufzunehmen."
+  "servicesPage": {
+    "title": "Unsere Dienstleistungen",
+    "transportServices": {
+      "title": "Umfassende Transportdienstleistungen",
+      "description": "Wir bieten Eisenbahntransporte, Containertransporte, Flexitanks, Fässer und Tankwagen an. Schiff- und Binnenschifftransporte sind ebenfalls verfügbar."
+    },
+    "customsAndLogistics": {
+      "title": "Zoll- und Logistikdienstleistungen",
+      "description": "Unsere Dienstleistungen umfassen Zollabfertigung, Umladung, Transport und rechtliche Unterstützung."
+    },
+    "export": {
+      "title": "Exportdienstleistungen",
+      "description": "Wir exportieren Getreide, Ölsaaten und landwirtschaftliche Produkte. Außerdem bieten wir den Export von Forstprodukten an."
+    },
+    "import": {
+      "title": "Importdienstleistungen",
+      "description": "Wir importieren Sanitäranlagen und Kältetechnik."
+    },
+    "mainRoutes": {
+      "title": "Haupttransportwege",
+      "description": "Wir betreiben Routen durch Europa, Asien, Afrika und den Nahen Osten."
+    },
+    "busRoutes": {
+      "title": "Busverbindungen",
+      "description": "Busverbindungen: Czernowitz - Riga, Czernowitz - Oslo, Czernowitz - Düsseldorf."
+    }
+  }
 }

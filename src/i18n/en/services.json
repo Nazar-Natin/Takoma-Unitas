@@ -1,4 +1,29 @@
 {
-  "services_heading": "Our Services",
-  "services_description": "We offer a wide range of services to meet your needs."
+  "servicesPage": {
+    "title": "Our Services",
+    "transportServices": {
+      "title": "Comprehensive Transport Services",
+      "description": "We offer railway transportation, container transportation, flexitanks, barrels, and tankers. Ship and barge transportation is also available."
+    },
+    "customsAndLogistics": {
+      "title": "Customs and Logistics Services",
+      "description": "Our services include customs clearance, reloading, transportation, and legal support."
+    },
+    "export": {
+      "title": "Export Services",
+      "description": "We export grain, oilseeds, and agricultural products. Additionally, we offer forestry product exports."
+    },
+    "import": {
+      "title": "Import Services",
+      "description": "We import sanitary ware and refrigeration equipment."
+    },
+    "mainRoutes": {
+      "title": "Main Transport Routes",
+      "description": "We operate routes across Europe, Asia, Africa, and the Middle East."
+    },
+    "busRoutes": {
+      "title": "Bus Routes",
+      "description": "Bus routes include Chernivtsi - Riga, Chernivtsi - Oslo, and Chernivtsi - Düsseldorf."
+    }
+  }
 }
