@@ -1,6 +1,6 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
-import heroImage from '../../../assets/images/hero-image.jpg'
+import heroImage from "../../../assets/images/hero-image.jpg";
 import styles from "./Hero.module.css";
 
 const Hero = () => {
@@ -15,10 +15,7 @@ const Hero = () => {
           <button className={styles.heroButton}>{t("hero.button")}</button>
         </div>
         <div className={styles.heroImageWrapper}>
-          <img
-            src={heroImage}
-            className={styles.heroImage}
-          />
+          <img src={heroImage} className={styles.heroImage} />
         </div>
       </div>
     </section>

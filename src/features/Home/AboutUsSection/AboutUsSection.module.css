@@ -17,19 +17,12 @@
 }
 
 .aboutTitle {
-  font-size: 2.5rem;
-  font-weight: 700;
-  line-height: 1.2;
   margin-bottom: 24px;
-  color: var(--primary-color);
+  color: var(--primary);
 }
 
 .aboutDescription {
-  font-size: 1rem;
-  font-weight: 400;
-  line-height: 1.5;
   margin-bottom: 16px;
-  color: #555;
 }
 
 .aboutCards {
@@ -47,7 +40,7 @@
 }
 
 .aboutCard:nth-child(1)::after {
-  content: " ";
+  content: "";
   width: 100%;
   height: 2px;
   background: #000;
@@ -56,26 +49,16 @@
   left: 0;
 }
 
-.aboutCard h6 {
-  font-size: 1.5rem;
-}
-
 .aboutUsImage {
   width: 100%;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px,
+    rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
 }
 
+/* Responsive Styles */
 @media (max-width: 768px) {
   .aboutContainer {
-    flex-direction: column;
     padding: 0 32px;
-  }
-
-  .aboutTitle {
-    font-size: 2rem;
-  }
-
-  .aboutDescription {
-    font-size: 0.9rem;
   }
 
   .aboutCards {
@@ -96,18 +79,6 @@
 @media (max-width: 480px) {
   .aboutContainer {
     padding: 0 16px;
-  }
-
-  .aboutTitle {
-    font-size: 1.75rem;
-  }
-
-  .aboutDescription {
-    font-size: 0.875rem;
-  }
-
-  .aboutCard h6 {
-    font-size: 1.25rem;
   }
 
   .aboutCards {

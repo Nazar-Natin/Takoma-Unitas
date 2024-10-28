@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./busTransportSection.module.css";
 import { useTranslation } from "react-i18next";
-import transportImage from '../../../assets/images/transport-image.jpg'
+import transportImage from "../../../assets/images/transport-image.jpg";
 
 export default function BusTransportSection() {
   const { t } = useTranslation("home");

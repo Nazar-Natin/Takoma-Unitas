@@ -15,13 +15,13 @@
 .logoLink {
   font-size: 1.5rem;
   font-weight: 700;
+  color: var(--primary);
   text-decoration: none;
-  transition: color 0.3s ease;
-  color: #000;
+  transition: color 0.5s cubic-bezier(0.17, 0.67, 0.83, 0.67);
 }
 
 .logoLink:hover {
-  color: var(--secondary-color);
+  color: var(--secondary);
 }
 
 .navFooter {
@@ -37,14 +37,13 @@
 }
 
 .navFooterLink {
+  color: var(--text);
   text-decoration: none;
-  font-size: 1rem;
-  transition: color 0.3s ease;
-  color: #000;
+  transition: color 0.5s cubic-bezier(0.17, 0.67, 0.83, 0.67);
 }
 
 .navFooterLink:hover {
-  color: var(--secondary-color);
+  color: var(--accent);
 }
 
 .footerDivider {
@@ -54,19 +53,19 @@
 }
 
 .footerCopyright {
-  margin-left: auto;
-  margin-right: auto;
   text-align: center;
   font-size: 0.875rem;
   margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .socialMedia {
   display: flex;
   list-style: none;
+  gap: 16px;
   padding: 0;
   margin: 0;
-  gap: 16px;
 }
 
 .socialMediaItem {

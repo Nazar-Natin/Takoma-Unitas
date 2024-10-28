@@ -1,6 +1,5 @@
 .transportSection {
   padding: 112px 64px;
-  background-color: #ffffff;
 }
 
 .transportContainer {
@@ -16,6 +15,9 @@
   width: 616px;
   height: 640px;
   object-fit: cover;
+  max-width: 100%;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px,
+    rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
 }
 
 .transportText {
@@ -24,18 +26,12 @@
 }
 
 .transportTitle {
-  font-size: 2.5rem;
-  font-weight: 700;
-  color: var(--primary-color);
+  color: var(--primary);
   margin-bottom: 16px;
 }
 
 .transportDescription {
-  font-size: 1rem;
-  font-weight: 400;
-  color: var(--text-color);
   margin-bottom: 24px;
-  line-height: 1.5;
 }
 
 .transportList {
@@ -44,13 +40,10 @@
 }
 
 .transportList li {
-  font-size: 1rem;
-  font-weight: 400;
-  color: var(--text-color);
-  line-height: 1.5;
   margin-bottom: 8px;
 }
 
+/* Responsive Styles */
 @media (max-width: 768px) {
   .transportSection {
     padding: 80px 32px;
@@ -62,21 +55,12 @@
   }
 
   .transportImg {
-    max-width: 100%;
     height: auto;
     margin-bottom: 32px;
   }
 
   .transportText {
     max-width: 100%;
-  }
-
-  .transportTitle {
-    font-size: 2rem;
-  }
-
-  .transportDescription {
-    font-size: 1rem;
   }
 
   .transportList {
@@ -87,17 +71,5 @@
 @media (max-width: 480px) {
   .transportSection {
     padding: 64px 16px;
-  }
-
-  .transportTitle {
-    font-size: 1.75rem;
-  }
-
-  .transportDescription {
-    font-size: 0.875rem;
-  }
-
-  .transportList li {
-    font-size: 0.875rem;
   }
 }

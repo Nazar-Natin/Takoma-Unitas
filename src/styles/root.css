@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css?family=Comme:700|Comme:400");
+
+:root {
+  --text: #0b0b12;
+  --background: #fcfcfd;
+  --primary: #5a61ac;
+  --secondary: #9ea2d1;
+  --accent: #7178c1;
+}
+
+body {
+  font-family: "Comme";
+  font-weight: 400;
+
+  background-color: var(--background);
+  color: var(--text);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Comme";
+  font-weight: 700;
+}
+
+html {
+  font-size: 100%;
+} /* 16px */
+
+h1 {
+  font-size: 3.37rem; /* 53.92px */
+}
+
+h2 {
+  font-size: 2.53rem; /* 40.48px */
+}
+
+h3 {
+  font-size: 1.89rem; /* 30.24px */
+}
+
+h4 {
+  font-size: 1.42rem; /* 22.72px */
+}
+
+h5 {
+  font-size: 1.07rem; /* 17.12px */
+}
+
+h6 {
+  font-size: 1.02rem;
+}
+
+small {
+  font-size: 0.6rem; /* 9.6px */
+}

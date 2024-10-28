@@ -1,19 +1,19 @@
 .servicesContainer {
-    max-width: 1440px;
-    margin: 0 auto;
-    padding: 0 64px;
-    display: flex;
-    flex-direction: column;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 64px;
+  display: flex;
+  flex-direction: column;
 }
 
 @media (max-width: 768px) {
-    .servicesContainer {
-      padding: 0 32px;
-    }
+  .servicesContainer {
+    padding: 0 32px;
+  }
 }
 
 @media (max-width: 480px) {
-    .aboutContainer {
-      padding: 0 16px;
-    }
+  .aboutContainer {
+    padding: 0 16px;
+  }
 }

@@ -7,7 +7,7 @@ import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
 import Modal from "./components/Modal/Modal";
 import Form from "./components/Form/Form";
-import "./styles/reset.css";
+import "./styles/index.css";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
@@ -18,7 +18,7 @@ const App = () => {
   const closeModal = () => setIsModalOpen(false);
 
   return (
-    <Router basename='/Takoma-Unitas/'>
+    <Router basename="/Takoma-Unitas/">
       <Header openModal={openModal} />
       <main>
         <Routes>

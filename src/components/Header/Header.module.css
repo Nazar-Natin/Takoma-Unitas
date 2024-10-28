@@ -1,29 +1,28 @@
 .navbar {
-  background-color: #fff;
-  border-bottom: 1px solid #000;
-  padding: 16px 0;
   width: 100%;
+  padding: 16px 0;
+  border-bottom: 1px solid var(--primary);
 }
 
 .navbarContainer {
   max-width: 1440px;
   margin: 0 auto;
+  padding: 0 64px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 64px;
 }
 
 .logoLink {
   font-size: 1.5rem;
   font-weight: 700;
+  color: var(--primary);
   text-decoration: none;
-  color: var(--primary-color);
   transition: color 0.3s ease;
 }
 
 .logoLink:hover {
-  color: var(--secondary-color);
+  color: var(--secondary);
 }
 
 .navMenu {
@@ -33,11 +32,11 @@
 }
 
 .navList {
-  list-style: none;
   display: flex;
-  gap: 32px;
+  list-style: none;
   margin: 0;
   padding: 0;
+  gap: 32px;
 }
 
 .navItem {
@@ -45,14 +44,14 @@
 }
 
 .navLink {
-  color: #333;
+  color: var(--text);
   text-decoration: none;
   font-size: 1rem;
-  transition: color 0.3s ease;
+  transition: color 0.5s cubic-bezier(0.17, 0.67, 0.83, 0.67);
 }
 
 .navLink:hover {
-  color: var(--secondary-color);
+  color: var(--secondary);
 }
 
 .hamburger {
@@ -64,37 +63,38 @@
 
 .bar {
   width: 25px;
-  height: 3px;
+  height: 2px;
   background-color: #333;
-  transition: background-color 0.3s ease;
+  transition: transform 0.5s cubic-bezier(0.17, 0.67, 0.83, 0.67);
 }
 
 @media (max-width: 768px) {
   .navbar {
     position: relative;
   }
+
   .navMenu {
     display: none;
     position: absolute;
     top: 100%;
     right: 0;
-    background-color: #fff;
+    width: 100%;
+    flex-direction: column;
+    padding: 40px 0;
+    background-color: var(--background);
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     overflow: hidden;
-    flex-direction: column;
-    gap: 0;
-    width: 100%;
-    padding-top: 40px;
-    padding-bottom: 40px;
   }
+
   .navList {
     margin-bottom: 24px;
   }
-  .active {
+
+  .hamburger {
     display: flex;
   }
 
-  .hamburger {
+  .active {
     display: flex;
   }
 }

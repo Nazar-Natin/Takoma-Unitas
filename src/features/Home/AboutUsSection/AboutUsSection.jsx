@@ -1,7 +1,7 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
 import styles from "./AboutUsSection.module.css";
-import aboutImage from '../../../assets/images/about-image.jpg'
+import aboutImage from "../../../assets/images/about-image.jpg";
 
 const AboutUsSection = () => {
   const { t } = useTranslation("home");
