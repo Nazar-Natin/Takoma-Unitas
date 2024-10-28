@@ -8,8 +8,6 @@ import Footer from "./components/Footer/Footer";
 import Modal from "./components/Modal/Modal";
 import Form from "./components/Form/Form";
 import "./styles/index.css";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
 
 const App = () => {
   const [isModalOpen, setIsModalOpen] = React.useState(false);
